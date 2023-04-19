@@ -14,20 +14,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
-/*Se quiser fazer Comentários CSS */
-.button {
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-weight: bold;
-    border: 0;
-    background: #1d61dd;
-    color: white;
-}
 
 /* cabeçalho */
 .header {
-    background: no-repeat center/cover url("assets/russia.jpg");
-    height: calc(100vh - 100px);
+    background: no-repeat center/cover url("russia.jpg");
+    height: calc(400vh - 400px);
 }
 
 .header nav {
@@ -54,7 +45,127 @@ a {
     text-align: center;
 }
 
-.header-content h1 {
-    margin-bottom: 10px;
+/*curiosidade*/
+.historia .historia-title {
+    width: 100%;
+    text-align: center;
+    margin:25px 0;
     font-size: 3rem;
+}
+
+.historia {
+    background: white;
+    padding: 20px;
+}
+
+.historia .historia-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.historia .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.historia .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.historia .card-content {
+    padding: 0 15px;
+}
+
+.historia .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.historia .card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.historia .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.historia .card-content h1 {
+    font-size: 1rem;
+}
+
+.historia .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #fbff00;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.historia .card .card-tag p {
+    margin:0;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: bold;
+}
+
+.relato{
+    text-align: center;
+    background: blue;
+}
+
+.relato .relato-title{
+    width: 90%;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2rem;
+}
+
+.contato {
+    height: 450px;
+    background-color: red;
+}
+
+
+.Contato h3{
+    color: white;
+    font-size: 24px;
+    padding: 42px;  
+    text-align: left;
+}
+
+
+.Contato .icones ul li {
+    color: white;
+    line-height: 2.8;
+}
+
+
+.Contato .icones ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+
+.auth {
+    color: white;
+    padding: 40px;
 }
