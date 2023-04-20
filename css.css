@@ -18,7 +18,7 @@
 }
 
 /* cabeçalho */
-header {
+.header {
     background: no-repeat center/cover url("assets/russia.jpg");
     height: calc(130vh - 90px);
 }
