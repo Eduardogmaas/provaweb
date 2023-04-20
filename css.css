@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+.body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+
 }
 
-ul {
+.ul {
     list-style: none;
     font-weight: bold;
 }
 
-a {
-    text-decoration: none;
+.a {
+    text-decoration: none ;
     color: inherit;
 }
 
 /* cabeçalho */
-.header {
-    background: no-repeat center/cover url("russia.jpg");
-    height: calc(400vh - 400px);
+header {
+    background: no-repeat center/cover url("assets/russia.jpg");
+    height: calc(130vh - 90px);
 }
 
 .header nav {
@@ -47,15 +49,17 @@ a {
 
 /*curiosidade*/
 .historia .historia-title {
-    width: 100%;
+    width: 50%;
     text-align: center;
-    margin:25px 0;
-    font-size: 3rem;
+    margin: 0px;
+    font-size: 2rem;
+    
 }
 
 .historia {
-    background: white;
-    padding: 20px;
+    background: #e4e4e1;
+    padding: 0px;
+    height: 395px;
 }
 
 .historia .historia-card {
@@ -74,7 +78,7 @@ a {
 
 .historia .card {
     width: 250px;
-    height: 350px;
+    height: 310px;
     background: white;
     border-radius: 24px 0;
     margin: 25px;
@@ -126,21 +130,32 @@ a {
     font-weight: bold;
 }
 
+/*relato*/ 
 .relato{
     text-align: center;
-    background: blue;
+    background: rgb(26, 26, 255);
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .relato .relato-title{
     width: 90%;
     text-align: center;
-    margin: 30px 0;
+    margin: 0px;
     font-size: 2rem;
 }
+.section .section-historia .section-relato .section-contato {
+    margin-top: 0; /* Remove o espaço em branco acima da seção */
+    margin-bottom: 0; /* Remove o espaço em branco abaixo da seção */
+    padding-top: 0; /* Remove o preenchimento acima da seção */
+    padding-bottom: 0; /* Remove o preenchimento abaixo da seção */
+}
 
+/*contato*/
 .contato {
-    height: 450px;
-    background-color: red;
+    height: 300px;
+    background-color: rgb(250, 34, 34);
 }
 
 
@@ -149,12 +164,14 @@ a {
     font-size: 24px;
     padding: 42px;  
     text-align: left;
+    margin: 0px;
 }
 
 
 .Contato .icones ul li {
-    color: white;
+    color: black;
     line-height: 2.8;
+    font-size
 }
 
 
@@ -162,10 +179,12 @@ a {
     width: 16px;
     height: 16px;
     margin-right: 10px;
+    color: white;
 }
 
 
 .auth {
     color: white;
-    padding: 40px;
+    padding: 20px;
 }
+
